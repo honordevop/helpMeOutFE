@@ -5,7 +5,9 @@ import send from "public/send-2.svg";
 import refresh from "public/refresh-square-2.svg";
 // import background from "public/background.jpg";
 
-export default function Features() {
+import React from "react";
+
+const Features = () => {
   return (
     <div id="features" className="px-[100px] py-20 bg-[#fff] space-y-16">
       <div className="w-full text-center">
@@ -75,4 +77,6 @@ export default function Features() {
       </div>
     </div>
   );
-}
+};
+
+export default Features;

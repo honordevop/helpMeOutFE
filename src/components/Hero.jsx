@@ -5,7 +5,9 @@ import imageIII from "public/heroImageIII.png";
 import heroBgI from "public/herobg.png";
 import heroBgII from "public/herobgI.png";
 
-export default function Hero() {
+import React from "react";
+
+const Hero = () => {
   return (
     <div className="bg-[#fff] px-[100px] py-[150px] flex gap-x-40 items-center">
       <div>
@@ -46,4 +48,6 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+};
+
+export default Hero;
