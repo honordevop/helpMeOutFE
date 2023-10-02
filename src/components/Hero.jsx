@@ -18,8 +18,32 @@ const Hero = () => {
           Help your friends and loved ones by creating and sending videos on how
           to get things done on a website.
         </p>
-        <button className="text-[18px] font-workSans font-medium flex gap-x-3 py-[22px] px-6 text-primary-50 bg-primary-500 rounded-lg">
+        <button className="text-[18px] font-workSans font-medium flex gap-x-3 py-[22px] px-6 text-primary-50 bg-[#120b48] rounded-lg text-white">
           <span>Install HelpMeOut</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="21"
+            viewBox="0 0 20 21"
+            fill="none"
+          >
+            <path
+              d="M12.0254 5.44165L17.0837 10.5L12.0254 15.5583"
+              stroke="white"
+              strokeWidth="1.5"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />{" "}
+            <path
+              d="M2.91699 10.5H16.942"
+              stroke="white"
+              strokeWidth="1.5"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </button>
       </div>
 
