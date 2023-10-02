@@ -1,5 +1,5 @@
 {
-  "name": "helpmeoutfe",
+  "name": "help-me-out",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,6 +16,8 @@
   "devDependencies": {
     "autoprefixer": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
   }
 }
